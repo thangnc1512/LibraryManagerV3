@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Library Manager</string>
+
+    <string name="title_activity_intro">Giới thiệu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_category">Loại sách</string>
+
+    <string name="title_activity_book">Sách</string>
+
+    <string name="title_activity_invoice">Hoá đơn</string>
+
+    <string name="title_activity_dinvoice">Hoá đơn chi tiết</string>
+
+    <string name="title_activity_user">Người dùng</string>
+
+    <string name="title_activity_add_user">Thêm người dùng</string>
+
+    <string name="title_activity_add_cate">Thêm thể loại sách</string>
+
+    <string name="title_activity_add_book">Thêm sách</string>
+
+    <string name="title_add_invoice">Thêm hoá đơn</string>
+
+    <string name="title_activity_add_invoice">Thêm hoá đơn</string>
+    <string name="notify_empty_user">Yêu cầu nhập liệu</string>
+    <string name="notify_empty_pass">Yêu cầu nhập liệu</string>
+    <string name="notify_length_user">Yêu cầu phải từ 6 kí tự trở lên</string>
+    <string name="notify_length_pass">Phải nhập trên 6 kí tự</string>
+    <string name="notify_wrong_username_password">Wrong Username or Password!</string>
+    <string name="title_list_user_act">Người Dùng</string>
+    <string name="notify_max_bill_id">Bill ID\'s length is the maximum 7 characters!!!</string>
+
+</resources>

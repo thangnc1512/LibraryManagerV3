@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    tools:context=".HomeActivity">
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Giới thiệu"/>
+
+    <ImageView
+        android:layout_below="@id/tvCate"
+        android:id="@+id/imgIntro"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/review"/>
+    <TextView
+        android:layout_toRightOf="@id/tvIntro"
+        android:id="@+id/tvCate"
+        android:layout_marginLeft="40dp"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Loại Sách"/>
+
+    <ImageView
+        android:layout_below="@id/tvCate"
+        android:id="@+id/imgCategory"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/imgIntro"
+        android:src="@drawable/category"/>
+
+    <TextView
+        android:layout_below="@id/imgIntro"
+        android:id="@+id/tvBook"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Sách"/>
+    <ImageView
+        android:id="@+id/imgBook"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/imgIntro"
+        android:src="@drawable/book"/>
+
+    <TextView
+        android:layout_below="@id/imgCategory"
+        android:layout_toRightOf="@id/tvBook"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/tvInvoice"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Hoá Đơn"/>
+
+    <ImageView
+        android:id="@+id/imgInvoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imgBook"
+        android:layout_below="@id/imgIntro"
+        android:src="@drawable/invoice"/>
+    <TextView
+        android:layout_below="@id/imgBook"
+        android:id="@+id/tvDInvoice"
+        android:layout_width="120dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"/>
+    <ImageView
+        android:id="@+id/imgDInvoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/imgBook"
+        android:src="@drawable/images"/>
+    <TextView
+        android:layout_below="@id/imgBook"
+        android:layout_toRightOf="@id/tvDInvoice"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvUser"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Người dùng"/>
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/user1"
+        android:layout_below="@id/imgBook"
+        android:layout_toRightOf="@id/imgDInvoice"/>
+
+
+
+
+</RelativeLayout>
